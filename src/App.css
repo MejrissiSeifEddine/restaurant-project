@@ -1,0 +1,177 @@
+/* Global Styles */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #5c5454e7!important;
+}
+
+a {
+  color: rgb(3, 3, 3);
+  text-decoration: none;
+}
+
+img {
+  max-width: 150%;
+  height: auto;
+}
+
+/* Header */
+
+header {
+  background-color: rgb(117, 1, 1);
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img {
+  margin-right: 10px;
+  height: 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Hero */
+
+.hero {
+  background-image: url('back.webp');
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+/* Section */
+
+.section {
+  padding: 50px;
+}
+
+.section-heading {
+  font-size: 30px;
+  margin: 0 0 50px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgb(206, 48, 48);
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+  margin: 30px;
+  overflow: inherit;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) .3s ease;
+  width: 350px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(66, 66, 66, 0.3);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+}
+
+.card-text {
+  font-size: 19px;
+  margin: 0;
+}
+.custom-card {
+  background-color: red;
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgb(65, 63, 63);
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li {
+  margin: 0 10px;
+  list-style: none;
+}
+button[type="submit"] {
+  background-image: linear-gradient(to right, #333, #222);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-icons a {
+  color: rgb(231, 231, 231);
+  font-size: 24px;
+  transition: all .3s ease;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
